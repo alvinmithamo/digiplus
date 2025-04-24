@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startup - Tailwind CSS Template</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans antialiased text-gray-900 bg-[#090e34]">
+    <!-- Header -->
+    <header class="bg-[#090e34] shadow sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-blue-600">DigiPlus Agency</div>
+            <div class="space-x-8 hidden md:flex">
+                <a href="#home" class="text-white hover:text-blue-600">Home</a>
+                <a href="#features" class="text-white hover:text-blue-600">Features</a>
+                <a href="#team" class="text-white hover:text-blue-600">The Team</a>
+                <a href="#smartqueue" class="text-white hover:text-blue-600">SmartQueue</a>
+                <a href="#testimonials" class="text-white hover:text-blue-600">Testimonials</a>
+                <a href="#contact" class="text-white hover:text-blue-600">Contact</a>
+            </div>
+            <button class="md:hidden focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg[#090e34]">
+        <div class="container mx-auto px-6 text-center">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1 class="text-4xl md:text-5xl text-white font-bold mb-6">Transforming Ideas into Digital Success</h1>
+            <p class="text-lg md:text-xl text-gray-300 mb-8">Launch your business with our powerful and cutting-edge web and mobile solutions tailored to your vision.</p>
+            <div class="space-x-4">
+                <a href="#features" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">Get Started</a>
+                <!-- <a href="#features" class="inline-block bg-gray-200 text-gray-900 px-6 py-3 rounded-lg hover:bg-gray-300">Learn More</a> -->
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Why Choose Us?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h3 class="text-xl font-semibold mb-4">Web Development</h3>
+                    <p class="text-gray-600">Crafting responsive, high-performance websites using modern frameworks like React and Node.js.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h3 class="text-xl font-semibold mb-4">Mobile Apps Development</h3>
+                    <p class="text-gray-600">Building native and cross-platform mobile applications for iOS and Android.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h3 class="text-xl font-semibold mb-4">UI/UX Design</h3>
+                    <p class="text-gray-600">Designing intuitive and visually stunning user interfaces to enhance user experiences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Pricing Section -->
+    <!-- <section id="pricing" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Pricing Plans</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow text-center">
+                    <h3 class="text-xl font-semibold mb-4">Basic</h3>
+                    <p class="text-3xl font-bold mb-4">$19<span class="text-sm">/mo</span></p>
+                    <ul class="text-gray-600 mb-6 space-y-2">
+                        <li>1 Project</li>
+                        <li>Basic Support</li>
+                        <li>5GB Storage</li>
+                    </ul>
+                    <a href="#" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">Choose Plan</a>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow text-center">
+                    <h3 class="text-xl font-semibold mb-4">Pro</h3>
+                    <p class="text-3xl font-bold mb-4">$49<span class="text-sm">/mo</span></p>
+                    <ul class="text-gray-600 mb-6 space-y-2">
+                        <li>5 Projects</li>
+                        <li>Priority Support</li>
+                        <li>20GB Storage</li>
+                    </ul>
+                    <a href="#" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">Choose Plan</a>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow text-center">
+                    <h3 class="text-xl font-semibold mb-4">Enterprise</h3>
+                    <p class="text-3xl font-bold mb-4">$99<span class="text-sm">/mo</span></p>
+                    <ul class="text-gray-600 mb-6 space-y-2">
+                        <li>Unlimited Projects</li>
+                        <li>24/7 Support</li>
+                        <li>100GB Storage</li>
+                    </ul>
+                    <a href="#" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">Choose Plan</a>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!--Team -->
+
+    <section id="team" class= "mx-auto py-12 px-4">
+        <h1 class="text-4xl font-bold text-center text-gray-300 mb-8">The Brains Behind DigiPlus</h1>
+        <p class="text-lg text-center text-gray-300 mb-12">Meet the team behind our company, dedicated to revolutionizing technology.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <!-- Team Member 1: Alvin Mithamo -->
+            <div class="bg-white rounded-lg shadow-lg p-6 text-center transform hover:scale-105 transition-transform duration-300">
+                <img src="https://via.placeholder.com/150" alt="Alvin Mithamo" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+                <h2 class="text-xl font-semibold text-gray-800">Alvin Mithamo</h2>
+                <p class="text-sm text-gray-500 mb-2">Website Developer</p>
+                <p class="text-gray-700 mb-4"><strong>Primary Responsibility:</strong> Design, develop, and maintain the project website to showcase deliverables.</p>
+                <p class="text-gray-700"><strong>Skills:</strong> HTML, CSS, JavaScript, UI/UX Design, Hosting (GitHub Pages, Google Sites)</p>
+            </div>
+
+            <!-- Team Member 2: Kent Lewa -->
+            <div class="bg-white rounded-lg shadow-lg p-6 text-center transform hover:scale-105 transition-transform duration-300">
+                <img src="https://via.placeholder.com/150" alt="Kent Lewa" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+                <h2 class="text-xl font-semibold text-gray-800">Kent Lewa</h2>
+                <p class="text-sm text-gray-500 mb-2">Designer</p>
+                <p class="text-gray-700 mb-4"><strong>Primary Responsibility:</strong> Create visual and interactive designs for SmartQueue's interface (mobile app, kiosk, web).</p>
+                <p class="text-gray-700"><strong>Skills:</strong> UI/UX Design, Figma, Adobe XD, User-Centered Design, Storyboarding</p>
+            </div>
+
+            <!-- Team Member 3: Lee Ochieng -->
+            <div class="bg-white rounded-lg shadow-lg p-6 text-center transform hover:scale-105 transition-transform duration-300">
+                <img src="https://via.placeholder.com/150" alt="Lee Ochieng" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+                <h2 class="text-xl font-semibold text-gray-800">Lee Ochieng</h2>
+                <p class="text-sm text-gray-500 mb-2">Project Researcher</p>
+                <p class="text-gray-700 mb-4"><strong>Primary Responsibility:</strong> Conduct contextual research to understand queue management needs and define requirements.</p>
+                <p class="text-gray-700"><strong>Skills:</strong> User Interviews, Surveys, Data Analysis, Literature Review, Task Analysis</p>
+            </div>
+
+            <!-- Team Member 4: Luke Onyatta -->
+            <div class="bg-white rounded-lg shadow-lg p-6 text-center transform hover:scale-105 transition-transform duration-300">
+                <img src="https://via.placeholder.com/150" alt="Luke Onyatta" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+                <h2 class="text-xl font-semibold text-gray-800">Luke Onyatta</h2>
+                <p class="text-sm text-gray-500 mb-2">Project Quality Assurance Officer</p>
+                <p class="text-gray-700 mb-4"><strong>Primary Responsibility:</strong> Ensure deliverables and prototypes meet HCI standards and project requirements.</p>
+                <p class="text-gray-700"><strong>Skills:</strong> Usability Testing, Heuristic Evaluation, Quality Control, Feedback Analysis</p>
+            </div>
+        </div>
+    </section>
+
+    <!--SmartQueue -->
+    <section id="smartqueue" class="max-w-6xl mx-auto py-12 px-4">
+        <!-- SmartQueue Introduction Section -->
+        <div class="bg-white rounded-lg shadow-lg p-8 mb-12 text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">Introducing SmartQueue</h2>
+            <p class="text-lg text-gray-600 mb-6">SmartQueue is an innovative queue management system designed to streamline waiting experiences in hospitals, retail, and more. With features like remote check-in, real-time updates, and staff management tools, SmartQueue reduces wait times and enhances user satisfaction.</p>
+            <a href="system.html" class="inline-block bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors duration-300">Explore SmartQueue</a>
+        </div>
+    </section>
+
+<!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">What Our Users Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gray-50 p-6 rounded-lg shadow">
+                    <p class="text-gray-600 mb-4">"Digiplus, through their SmartQueue system made my hospital visit stress-free! I joined the queue from home, got real-time updates, and walked in just in time for my appointment. It’s a game-changer!""</p>
+                    <p class="font-semibold">James W, Client</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow">
+                    <p class="text-gray-600 mb-4">"The support team is fantastic, ensuring smooth onboarding into their cutting-edge tech platforms."</p>
+                    <p class="font-semibold">Jane M, Founder</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">DigiPlus Agency</h3>
+                    <p class="text-gray-400">Empowering businesses to succeed with powerful technology.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="#team" class="text-gray-400 hover:text-white">The Team</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-white">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Support</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#contact" class="text-gray-400 hover:text-white">Contact Us</a></li>
+                        <!-- <li><a href="#" class="text-gray-400 hover:text-white">FAQ</a></li> -->
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact</h3>
+                    <p class="text-gray-400">Email: info@digiplus.com</p>
+                    <p class="text-gray-400">Phone: (254) 723 456789</p>
+                </div>
+            </div>
+            <div class="mt-8 text-center text-gray-400">
+                <p>&copy; 2025 DigiPlus Agency. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Script -->
+    <script>
+        const menuButton = document.querySelector('button.md\\:hidden');
+        menuButton.addEventListener('click', () => {
+            const nav = document.querySelector('nav div.space-x-8');
+            nav.classList.toggle('hidden');
+            nav.classList.toggle('flex');
+            nav.classList.toggle('flex-col');
+            nav.classList.toggle('absolute');
+            nav.classList.toggle('top-16');
+            nav.classList.toggle('bg-white');
+            nav.classList.toggle('w-full');
+            nav.classList.toggle('p-4');
+        });
+    </script>
+</body>
+</html>
